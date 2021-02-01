@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #3b96b1;
+        }
+        .container{
+            background-color: rgb(160, 224, 240);
+            border: 3px solid rgb(14, 56, 85);
+            /*We can set margin/padding for top,bottom,left,right like this.*/
+            /*
+            padding-top: 60px; 
+            padding-bottom: 60px; 
+            padding-left: 37px;*/ 
+            /* padding = top right bottom left */
+            /* padding: 58px 34px 60px 38px;    */
+            /* padding: y(top/bottom) x(left/right) */
+            padding: 18px 28px;
+            margin: 23px 21px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first"></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus doloremque rem rerum quis, nesciunt dolore iure dignissimos aspernatur officiis. Dolorem labore porro iste?</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second"></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus doloremque rem rerum quis, nesciunt dolore iure dignissimos aspernatur officiis. Dolorem labore porro iste?</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third"></p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus doloremque rem rerum quis, nesciunt dolore iure dignissimos aspernatur officiis. Dolorem labore porro iste?</p>
+    </div>
+    
+</body>
+</html>
